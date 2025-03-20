@@ -1,12 +1,51 @@
-# React + Vite
+# ⏱️ React + Vite Stopwatch App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **high-performance stopwatch** built with **React + Vite**, featuring **Start, Pause, Reset, and Lap** functionalities. Tracks **hours, minutes, seconds, and milliseconds** using **useState** and **useRef** for efficient state management.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
 
-## Expanding the ESLint configuration
+✅ **Start** → Begins the stopwatch and tracks time in milliseconds.  
+✅ **Pause** → Stops the stopwatch while preserving the current time.  
+✅ **Reset** → Resets the stopwatch to `00:00:00:000` and clears laps.  
+✅ **Lap** → Saves the current time as a lap record.  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure  
+
+📦 stopwatch-app ┣ 📂 public ┣ 📂 src ┃ ┣ 📜 App.css ┃ ┣ 📜 App.jsx ┃ ┣ 📜 index.css ┃ ┣ 📜 main.jsx ┣ 📜 index.html ┣ 📜 README.md ┣ 📜 package.json ┣ 📜 package-lock.json
+
+
+---
+
+## 🛠️ Tech Stack  
+
+- **React** (Functional Components)  
+- **Vite** (Fast development server)  
+- **useState & useRef** (Efficient time management)  
+- **CSS** (Basic styling)  
+
+---
+
+## 📌 Installation & Setup  
+
+### 1️⃣ Clone the repository  
+```sh
+git clone https://github.com/your-username/stopwatch-app.git
+cd stopwatch-app
+```
+### 2️⃣ Install dependencies
+```sh
+npm install
+```
+### 3️⃣ Run the development server
+```sh
+npm run dev
+```
+## 💻 Usage
+- 1️⃣ Click the "Start" button to begin tracking time.
+- 2️⃣ Click "Pause" to stop the timer temporarily.
+- 3️⃣ Click "Reset" to clear the timer and all laps.
+- 4️⃣ Click "Lap" to save the current time in the lap list.
